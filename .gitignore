@@ -1,0 +1,14 @@
+build/
+classes/
+target/
+.idea/
+.jar
+*.iml
+out/
+log/*
+*/log/
+*/target
+*.log
+
+
+/.idea/
