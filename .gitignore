@@ -9,6 +9,6 @@ log/*
 */log/
 */target
 *.log
-
+.gradle/
 
 /.idea/
