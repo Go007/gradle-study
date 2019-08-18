@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gradle-study
+  profiles:
+    active: local
+
+server:
+  port: 9887
+  servlet:
+    context-path: /gradle

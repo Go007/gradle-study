@@ -20,3 +20,13 @@ $ git push -u origin master 将本次更改更新到github项目上去
 git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'
+
+# Spring Boot项目中使用原生jdbc连接MySQL数据库
+
+# Spring Boot之默认连接池配置策略
+使用spring-boot-starter-jdbc 或 spring-boot-starter-data-jpa “starters”坐标,Spring Boot将自动配置HikariCP连接池，
+因为HikariCP在性能和并发性相比其他连接池都要好。
+可通过设置spring.datasource.type属性，可以跳过默认连接池选择策略，比如指定druid连接池。
+
+# Gradle的依赖方式——Lombok在Gradle中的正确配置姿势
+https://www.codercto.com/a/70161.html
